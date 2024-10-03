@@ -1,0 +1,13 @@
+doctype html
+html
+    head
+     title= 'Acme Inc'
+     link(rel='stylesheet', href='styles.css')
+    body 
+     h1 #{title}
+     h2 Hello #{username}
+     p='Create'
+     form(action='/create', method='get')
+        input(type='text')
+        input(type='submit', value='send')
+    button()
